@@ -1,4 +1,5 @@
-import problems.ProblemOne;
+import problems.Problem1;
+import problems.Problem2;
 
 public class App {
 
@@ -6,7 +7,11 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         
-        ProblemOne one = new ProblemOne(3, 5, 1000);
+        Problem1 one = new Problem1(3, 5, 1000);
         System.out.println("Problem one: " + one.calculate());
+
+        Problem2 two = new Problem2(4000000);
+        System.out.println("Problem two: " + two.calculate());
+        // two.showList();
     }
 }

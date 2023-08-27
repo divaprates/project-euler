@@ -3,7 +3,7 @@ package problems;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProblemOne {
+public class Problem1 {
     /* Multiples of 3 or 5 */
     private int a;
     private int b;
@@ -11,7 +11,7 @@ public class ProblemOne {
     private List<Integer> multiples = new ArrayList<>();
     private int sum;
 
-    public ProblemOne(int a, int b, int limit) {
+    public Problem1(int a, int b, int limit) {
         this.sum = 0;
         this.a = a;
         this.b = b;
