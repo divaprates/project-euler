@@ -1,5 +1,6 @@
 import problems.Problem1;
 import problems.Problem2;
+import problems.Problem3;
 
 public class App {
 
@@ -13,5 +14,8 @@ public class App {
         Problem2 two = new Problem2(4000000);
         System.out.println("Problem two: " + two.calculate());
         // two.showList();
+
+        Problem3 three = new Problem3(600851475143L);
+        System.out.println("Problem three: " + three.calculate());
     }
 }
