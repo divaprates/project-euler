@@ -14,8 +14,7 @@ public class Problem3 {
 
     public int calculate() {
         findFactor();
-        
-        System.out.println(resultList.toString());
+
         return resultList.get(resultList.size() - 1);
     }
 

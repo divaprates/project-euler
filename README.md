@@ -1,7 +1,7 @@
 ## Project Euler 
 <a href="https://projecteuler.net/about">about</a>
 
-| Classes     | Problema de Euler      | Description|
+| Classes     | Problem Euler          | Description|
 |-------------|------------------------|-------------------------------------------------------------|
 | Problem 1   | Multiples of 3 or 5    | Find the sum of all the multiples of 3 or 5 below 1000      |
 | Problem 2   | Even Fibonacci Numbers | Find the sum of the even-valued terms of the Fibonacci      |
